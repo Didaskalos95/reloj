@@ -17,10 +17,6 @@ if(lente.offsetWidth!=400){
    radioN=lente.offsetWidth/8*3;
    radioM=lente.offsetWidth/20*9;
 }
-if(body.offsetHeight<723){
-   let diff=723-body.offsetHeight;
-  body.style.height=`${723+diff}px`;
-}
 
 posicionCircular(numeros,radioN,ajusteY1,5);
 posicionCircular(marcadores,radioM, ajusteY2,0);
