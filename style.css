@@ -7,26 +7,26 @@
 
 @font-face{
     font-family:'Times New Roman';
-    src: url(fuente/times.ttf) format('truetype');;
+    src: url(font/times.ttf) format('truetype');;
 }
 @font-face {
     font-family: 'Times New Roman';
-    src: url(fuente/timesi.ttf) format('truetype');
+    src: url(font/timesi.ttf) format('truetype');
     font-style: italic;
 }
 @font-face {
     font-family: 'Times New Roman';
-    src: url(fuente/timesbd.ttf) format('truetype');
+    src: url(font/timesbd.ttf) format('truetype');
     font-weight: bold;
 }
 @font-face {
     font-family: 'Times New Roman';
-    src: url(fuente/timesbi.ttf) format('truetype');
+    src: url(font/timesbi.ttf) format('truetype');
     font-style: italic;
     font-weight: bold;
 }
 body{
-    height: 100vh; 
+    height: 100svh; 
     width: 100%;
     background-color: #F5ECE5;
     display: flex;
